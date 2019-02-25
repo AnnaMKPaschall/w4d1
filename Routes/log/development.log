@@ -1,0 +1,1565 @@
+  [1m[35m (1098.3ms)[0m  [1m[35mCREATE DATABASE "Routes_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (872.4ms)[0m  [1m[35mCREATE DATABASE "Routes_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for 127.0.0.1 at 2019-02-25 13:48:58 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/aa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/aa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.2/lib/rails/templates/rails/welcome/index.html.erb (4.4ms)
+Completed 200 OK in 78ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-02-25 13:51:32 -0500
+  
+AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2019-02-25 13:52:50 -0500
+Processing by UsersController#index as */*
+No template found for UsersController#index, rendering head :no_content
+Completed 204 No Content in 92ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-02-25 13:55:36 -0500
+Processing by UsersController#index as */*
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 69ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users?coffee[:latte]=5.99" for 127.0.0.1 at 2019-02-25 13:59:14 -0500
+Processing by UsersController#index as */*
+  Parameters: {"coffee"=>{":latte"=>"5.99"}}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users?coffee[:latte]=5.99&pizza[:latte]=6.99" for 127.0.0.1 at 2019-02-25 14:00:36 -0500
+Processing by UsersController#index as */*
+  Parameters: {"coffee"=>{":latte"=>"5.99"}, "pizza"=>{":latte"=>"6.99"}}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users?coffee[:latte]=5.99&pizza[:latte]=6.99" for 127.0.0.1 at 2019-02-25 14:02:35 -0500
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:02:52 -0500
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:04:32 -0500
+Processing by UsersController#create as */*
+  Parameters: {"coffee"=>{"latte"=>"4.99", "macciato"=>"3.99"}, "matcha"=>{"latte"=>"4.99"}}
+Completed 200 OK in 24ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2019-02-25 14:05:42 -0500
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for UsersController):
+  
+actionpack (5.2.2) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/7" for 127.0.0.1 at 2019-02-25 14:06:14 -0500
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"7"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2019-02-25 14:10:11 -0500
+  
+Rack::QueryParser::ParameterTypeError (expected Hash (got String) for param `name'):
+  
+rack (2.0.6) lib/rack/query_parser.rb:112:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:113:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:67:in `block in parse_nested_query'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `each'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `parse_nested_query'
+rack (2.0.6) lib/rack/request.rb:468:in `parse_query'
+rack (2.0.6) lib/rack/request.rb:343:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:382:in `block (2 levels) in POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `block in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `fetch'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_dispatch/http/filter_parameters.rb:43:in `filtered_parameters'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:23:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users/1" for 127.0.0.1 at 2019-02-25 14:10:40 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/users/1"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:10:52 -0500
+  
+Rack::QueryParser::ParameterTypeError (expected Hash (got String) for param `name'):
+  
+rack (2.0.6) lib/rack/query_parser.rb:112:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:113:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:67:in `block in parse_nested_query'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `each'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `parse_nested_query'
+rack (2.0.6) lib/rack/request.rb:468:in `parse_query'
+rack (2.0.6) lib/rack/request.rb:343:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:382:in `block (2 levels) in POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `block in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `fetch'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_dispatch/http/filter_parameters.rb:43:in `filtered_parameters'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:23:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:11:15 -0500
+  
+Rack::QueryParser::ParameterTypeError (expected Hash (got String) for param `:name'):
+  
+rack (2.0.6) lib/rack/query_parser.rb:112:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:113:in `normalize_params'
+rack (2.0.6) lib/rack/query_parser.rb:67:in `block in parse_nested_query'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `each'
+rack (2.0.6) lib/rack/query_parser.rb:64:in `parse_nested_query'
+rack (2.0.6) lib/rack/request.rb:468:in `parse_query'
+rack (2.0.6) lib/rack/request.rb:343:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:382:in `block (2 levels) in POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `block in parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `fetch'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:109:in `parse_formatted_parameters'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch'
+rack (2.0.6) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.2) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.2) lib/action_dispatch/http/filter_parameters.rb:43:in `filtered_parameters'
+actionpack (5.2.2) lib/action_controller/metal/instrumentation.rb:23:in `process_action'
+actionpack (5.2.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:12:03 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"'anna'"}}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:12:14 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"anna"}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:13:00 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"anna", "email_hash"=>{"email"=>"anna@aol"}}}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (294.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (35.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (19.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190225191448)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (88.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying NOT NULL, "email" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190225191448_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190225191448"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-02-25 19:15:27.143860"], ["updated_at", "2019-02-25 19:15:27.143860"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (36.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Anna"], ["email", "anna@aol"], ["created_at", "2019-02-25 19:16:34.229128"], ["updated_at", "2019-02-25 19:16:34.229128"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cron"], ["email", "cron@gmail"], ["created_at", "2019-02-25 19:16:56.397639"], ["updated_at", "2019-02-25 19:16:56.397639"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/users" for 127.0.0.1 at 2019-02-25 14:18:13 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/aa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"name"=>"anna", "email_hash"=>{"email"=>"anna@aol"}}}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 107ms (Views: 80.2ms | ActiveRecord: 8.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-02-25 14:23:18 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"cranna", "email"=>"crayon@aol"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "cranna"], ["email", "crayon@aol"], ["created_at", "2019-02-25 19:23:18.715003"], ["updated_at", "2019-02-25 19:23:18.715003"]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (27.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9
+Completed 200 OK in 73ms (Views: 1.0ms | ActiveRecord: 35.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-02-25 14:31:10 -0500
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{"name"=>"cranna", "email"=>"crayon@aol"}}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 38ms (Views: 11.2ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/users/5" for 127.0.0.1 at 2019-02-25 14:31:19 -0500
+Processing by UsersController#show as */*
+  Parameters: {"user"=>{"name"=>"cranna", "email"=>"crayon@aol"}, "id"=>"5"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:19
+Completed 404 Not Found in 27ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=5):
+  
+app/controllers/users_controller.rb:19:in `show'
+Started POST "/users/" for 127.0.0.1 at 2019-02-25 14:33:29 -0500
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywash@aol"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Create (17.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "denzel washington"], ["email", "denzywash@aol"], ["created_at", "2019-02-25 19:33:29.750905"], ["updated_at", "2019-02-25 19:33:29.750905"]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (35.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9
+Completed 200 OK in 88ms (Views: 0.6ms | ActiveRecord: 60.3ms)
+
+
+Started PATCH "/users/4/" for 127.0.0.1 at 2019-02-25 14:34:47 -0500
+Processing by UsersController#update as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywashthegod@aol"}, "id"=>"4"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:26
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "email" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["email", "denzywashthegod@aol"], ["updated_at", "2019-02-25 19:34:47.969115"], ["id", 4]]
+  ↳ app/controllers/users_controller.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:26
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 2.1ms)
+
+
+Started DELETE "/users/4/" for 127.0.0.1 at 2019-02-25 14:35:02 -0500
+Processing by UsersController#destroy as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywashthegod@aol"}, "id"=>"4"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:34
+  [1m[36mUser Destroy (0.8ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/users_controller.rb:35
+Redirected to http://localhost:3000/users
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-02-25 14:35:02 -0500
+Processing by UsersController#index as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:4
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (16.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to ChangeUserColumns (20190225194157)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (116.3ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "name"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:3
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "email"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:4
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to ChangeUserColumns (20190225194157)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "name"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "email"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:4
+  [1m[35m (42.2ms)[0m  [1m[35mALTER TABLE "users" ADD "username" character varying[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:5
+  [1m[35m (16.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_user_on_username" ON "user"  ("username")[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to ChangeUserColumns (20190225194157)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "name"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" DROP COLUMN "email"[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:4
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "username" character varying[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:5
+  [1m[35m (59.5ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_username" ON "users"  ("username")[0m
+  ↳ db/migrate/20190225194157_change_user_columns.rb:6
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190225194157"]]
+  ↳ bin/rails:9
+  [1m[35m (15.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (15.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[35m (34.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Exists (1.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "sneakysneaky"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "sneakysneaky"], ["LIMIT", 1]]
+  [1m[36mUser Create (41.8ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 19:48:22.222443"], ["updated_at", "2019-02-25 19:48:22.222443"], ["username", "sneakysneaky"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "sneakysneaky"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (20.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateArtworks (20190225195136)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (66.0ms)[0m  [1m[35mCREATE TABLE "artworks" ("id" bigserial primary key, "title" character varying NOT NULL, "image_url" character varying NOT NULL, "artist_id" integer NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190225195136_create_artworks.rb:3
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_artworks_on_artist_id_and_title" ON "artworks"  ("artist_id", "title")[0m
+  ↳ db/migrate/20190225195136_create_artworks.rb:9
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190225195136"]]
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (24.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateArtworkShares (20190225200830)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (50.3ms)[0m  [1m[35mCREATE TABLE "artwork_shares" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "artwork_id" integer, "viewer_id" integer)[0m
+  ↳ db/migrate/20190225200830_create_artwork_shares.rb:3
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_artwork_shares_on_viewer_id_and_artwork_id" ON "artwork_shares"  ("viewer_id", "artwork_id")[0m
+  ↳ db/migrate/20190225200830_create_artwork_shares.rb:8
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE  INDEX  "index_artwork_shares_on_viewer_id" ON "artwork_shares"  ("viewer_id")[0m
+  ↳ db/migrate/20190225200830_create_artwork_shares.rb:9
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_artwork_shares_on_artwork_id" ON "artwork_shares"  ("artwork_id")[0m
+  ↳ db/migrate/20190225200830_create_artwork_shares.rb:10
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190225200830"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (21.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (1.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:8
+  [1m[35m (32.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtwork Load (22.1ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtwork Load (0.9ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Anna"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:33:06.131572"], ["updated_at", "2019-02-25 20:33:06.131572"], ["username", "Anna"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Connor"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:33:06.136309"], ["updated_at", "2019-02-25 20:33:06.136309"], ["username", "Connor"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Greg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:33:06.140062"], ["updated_at", "2019-02-25 20:33:06.140062"], ["username", "Greg"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Mark"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:33:06.143230"], ["updated_at", "2019-02-25 20:33:06.143230"], ["username", "Mark"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mArtwork Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Snowy Night"], ["artist_id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mArtwork Create (1.5ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Snowy Night"], ["image_url", "abd"], ["artist_id", 6], ["created_at", "2019-02-25 20:33:06.226905"], ["updated_at", "2019-02-25 20:33:06.226905"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mArtwork Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Rainy Night"], ["artist_id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mArtwork Create (0.4ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Rainy Night"], ["image_url", "add"], ["artist_id", 7], ["created_at", "2019-02-25 20:33:06.234163"], ["updated_at", "2019-02-25 20:33:06.234163"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mArtwork Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Sunny Night"], ["artist_id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Sunny Night"], ["image_url", "gbd"], ["artist_id", 8], ["created_at", "2019-02-25 20:33:06.239378"], ["updated_at", "2019-02-25 20:33:06.239378"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mArtwork Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Moonlit Night"], ["artist_id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mArtwork Create (0.4ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Moonlit Night"], ["image_url", "abv"], ["artist_id", 9], ["created_at", "2019-02-25 20:33:06.244380"], ["updated_at", "2019-02-25 20:33:06.244380"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtwork Load (0.8ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mArtwork Destroy (0.5ms)[0m  [1m[31mDELETE FROM "artworks" WHERE "artworks"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mArtwork Destroy (0.4ms)[0m  [1m[31mDELETE FROM "artworks" WHERE "artworks"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mArtwork Destroy (0.3ms)[0m  [1m[31mDELETE FROM "artworks" WHERE "artworks"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mArtwork Destroy (0.3ms)[0m  [1m[31mDELETE FROM "artworks" WHERE "artworks"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtwork Load (0.8ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ db/seeds.rb:8
+  [1m[36mArtwork Load (0.8ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks"[0m
+  ↳ db/seeds.rb:9
+  [1m[36mArtworkShare Load (19.1ms)[0m  [1m[34mSELECT "artwork_shares".* FROM "artwork_shares"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Anna"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.425045"], ["updated_at", "2019-02-25 20:44:29.425045"], ["username", "Anna"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (34.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Connor"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.463994"], ["updated_at", "2019-02-25 20:44:29.463994"], ["username", "Connor"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Greg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.467804"], ["updated_at", "2019-02-25 20:44:29.467804"], ["username", "Greg"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Mark"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.472295"], ["updated_at", "2019-02-25 20:44:29.472295"], ["username", "Mark"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mArtwork Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Snowy Night"], ["artist_id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mArtwork Create (0.8ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Snowy Night"], ["image_url", "abd"], ["artist_id", 10], ["created_at", "2019-02-25 20:44:29.541612"], ["updated_at", "2019-02-25 20:44:29.541612"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mArtwork Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Rainy Night"], ["artist_id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mArtwork Create (0.4ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Rainy Night"], ["image_url", "add"], ["artist_id", 11], ["created_at", "2019-02-25 20:44:29.547892"], ["updated_at", "2019-02-25 20:44:29.547892"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mArtwork Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Sunny Night"], ["artist_id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Sunny Night"], ["image_url", "gbd"], ["artist_id", 12], ["created_at", "2019-02-25 20:44:29.552447"], ["updated_at", "2019-02-25 20:44:29.552447"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mArtwork Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "A Moonlit Night"], ["artist_id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "A Moonlit Night"], ["image_url", "abv"], ["artist_id", 13], ["created_at", "2019-02-25 20:44:29.557254"], ["updated_at", "2019-02-25 20:44:29.557254"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mArtworkShare Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 6], ["viewer_id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mArtworkShare Create (16.7ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("created_at", "updated_at", "artwork_id", "viewer_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.575406"], ["updated_at", "2019-02-25 20:44:29.575406"], ["artwork_id", 6], ["viewer_id", 10]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mArtworkShare Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 7], ["viewer_id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mArtwork Load (0.4ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mArtworkShare Create (0.4ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("created_at", "updated_at", "artwork_id", "viewer_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.606385"], ["updated_at", "2019-02-25 20:44:29.606385"], ["artwork_id", 7], ["viewer_id", 11]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mArtworkShare Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 8], ["viewer_id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mArtwork Load (0.4ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mArtworkShare Create (0.4ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("created_at", "updated_at", "artwork_id", "viewer_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.612061"], ["updated_at", "2019-02-25 20:44:29.612061"], ["artwork_id", 8], ["viewer_id", 12]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mArtworkShare Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 5], ["viewer_id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mArtworkShare Create (0.4ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("created_at", "updated_at", "artwork_id", "viewer_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2019-02-25 20:44:29.617382"], ["updated_at", "2019-02-25 20:44:29.617382"], ["artwork_id", 5], ["viewer_id", 13]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+Started GET "/users/1/artworks" for 127.0.0.1 at 2019-02-25 16:04:03 -0500
+  [1m[35m (65.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/aa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant ArtworksController):
+  
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:76:in `block in load_missing_constant'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:76:in `rescue in load_missing_constant'
+bootsnap (1.4.0) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.2) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.6) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+actionpack (5.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/1/artworks" for 127.0.0.1 at 2019-02-25 16:06:45 -0500
+Processing by ArtworksController#index as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywashthegod@aol"}, "user_id"=>"1"}
+  [1m[36mArtwork Load (30.5ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."user_id" = $1 LIMIT $2[0m  [["user_id", "1"], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:3
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 36.5ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column artworks.user_id does not exist
+LINE 1: SELECT  "artworks".* FROM "artworks" WHERE "artworks"."user_...
+                                                   ^
+: SELECT  "artworks".* FROM "artworks" WHERE "artworks"."user_id" = $1 LIMIT $2):
+  
+app/controllers/artworks_controller.rb:3:in `index'
+Started GET "/users/1/artworks" for 127.0.0.1 at 2019-02-25 16:07:23 -0500
+Processing by ArtworksController#index as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywashthegod@aol"}, "user_id"=>"1"}
+  [1m[36mArtwork Load (0.7ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."artist_id" = $1 LIMIT $2[0m  [["artist_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:3
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 3.8ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/users/10/artworks" for 127.0.0.1 at 2019-02-25 16:08:00 -0500
+Processing by ArtworksController#index as */*
+  Parameters: {"user"=>{"name"=>"denzel washington", "email"=>"denzywashthegod@aol"}, "user_id"=>"10"}
+  [1m[36mArtwork Load (0.9ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."artist_id" = $1 LIMIT $2[0m  [["artist_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:3
+Completed 200 OK in 20ms (Views: 1.1ms | ActiveRecord: 9.5ms)
+
+
+Started PATCH "/artworks/5" for 127.0.0.1 at 2019-02-25 16:11:33 -0500
+Processing by ArtworksController#update as */*
+  Parameters: {"artwork"=>{"title"=>"a very snowy night"}, "id"=>"5"}
+  [1m[36mArtwork Load (0.3ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:9
+  [1m[36mArtwork Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."id" != $2 AND "artworks"."artist_id" = $3 LIMIT $4[0m  [["title", "a very snowy night"], ["id", 5], ["artist_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:9
+  [1m[36mArtwork Update (0.8ms)[0m  [1m[33mUPDATE "artworks" SET "title" = $1, "updated_at" = $2 WHERE "artworks"."id" = $3[0m  [["title", "a very snowy night"], ["updated_at", "2019-02-25 21:11:33.302992"], ["id", 5]]
+  ↳ app/controllers/artworks_controller.rb:9
+  [1m[35m (40.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/artworks_controller.rb:9
+Completed 200 OK in 147ms (Views: 0.9ms | ActiveRecord: 56.4ms)
+
+
+Started POST "/artworks/" for 127.0.0.1 at 2019-02-25 16:16:33 -0500
+Processing by ArtworksController#create as */*
+  Parameters: {"artwork"=>{"title"=>"a very shady night", "image_url"=>"www", "artist_id"=>"10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" IS NULL AND "artworks"."artist_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/artworks_controller.rb:29
+Redirected to http://localhost:3000/artworks
+Completed 302 Found in 76ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/artworks" for 127.0.0.1 at 2019-02-25 16:16:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/artworks"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/artworks/" for 127.0.0.1 at 2019-02-25 16:16:58 -0500
+Processing by ArtworksController#create as */*
+  Parameters: {"artwork"=>{"title"=>"a very shady night", "image_url"=>"www", "artist_id"=>"10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" IS NULL AND "artworks"."artist_id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/artworks_controller.rb:29
+Redirected to http://localhost:3000/artworks
+Completed 302 Found in 7ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/artworks" for 127.0.0.1 at 2019-02-25 16:16:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/artworks"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/artworks/" for 127.0.0.1 at 2019-02-25 16:18:27 -0500
+Processing by ArtworksController#create as */*
+  Parameters: {"artwork"=>{"title"=>"a very shady night", "image_url"=>"www", "artist_id"=>"10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "a very shady night"], ["artist_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Create (0.7ms)[0m  [1m[32mINSERT INTO "artworks" ("title", "image_url", "artist_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "a very shady night"], ["image_url", "www"], ["artist_id", 10], ["created_at", "2019-02-25 21:18:27.362828"], ["updated_at", "2019-02-25 21:18:27.362828"]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/artworks_controller.rb:29
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 13.9ms)
+
+
+  
+ActionView::MissingTemplate (Missing template http://localhost:3000/artworks/9 with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/aa/Desktop/W4D1/Routes/app/views"
+):
+  
+app/controllers/artworks_controller.rb:30:in `create'
+Started POST "/artworks/" for 127.0.0.1 at 2019-02-25 16:19:03 -0500
+Processing by ArtworksController#create as */*
+  Parameters: {"artwork"=>{"title"=>"a very shady night", "image_url"=>"www", "artist_id"=>"10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "a very shady night"], ["artist_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/artworks_controller.rb:29
+Redirected to http://localhost:3000/artworks
+Completed 302 Found in 58ms (ActiveRecord: 12.5ms)
+
+
+Started GET "/artworks" for 127.0.0.1 at 2019-02-25 16:19:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/artworks"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/artworks/" for 127.0.0.1 at 2019-02-25 16:20:42 -0500
+Processing by ArtworksController#create as */*
+  Parameters: {"artwork"=>{"title"=>"a very shady night", "image_url"=>"www", "artist_id"=>"10"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mArtwork Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "artworks" WHERE "artworks"."title" = $1 AND "artworks"."artist_id" = $2 LIMIT $3[0m  [["title", "a very shady night"], ["artist_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/artworks_controller.rb:29
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/artworks_controller.rb:29
+Completed 422 Unprocessable Entity in 57ms (Views: 0.2ms | ActiveRecord: 13.1ms)
+
+
+Started POST "/artwork_shares/" for 127.0.0.1 at 2019-02-25 16:44:54 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"artwork_share"=>{"viewer_id"=>"11", "artwork_id"=>"7"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mArtworkShare Exists (24.9ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 7], ["viewer_id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mArtwork Load (0.7ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/artwork_shares_controller.rb:4
+Completed 422 Unprocessable Entity in 200ms (Views: 0.5ms | ActiveRecord: 50.9ms)
+
+
+  [1m[36mArtwork Load (0.6ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" LIMIT $1[0m  [["LIMIT", 11]]
+Started POST "/artwork_shares/" for 127.0.0.1 at 2019-02-25 16:46:23 -0500
+Processing by ArtworkSharesController#create as */*
+  Parameters: {"artwork_share"=>{"viewer_id"=>"11", "artwork_id"=>"8"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mArtworkShare Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "artwork_shares" WHERE "artwork_shares"."artwork_id" = $1 AND "artwork_shares"."viewer_id" = $2 LIMIT $3[0m  [["artwork_id", 8], ["viewer_id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mArtwork Load (0.5ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[36mArtworkShare Create (0.9ms)[0m  [1m[32mINSERT INTO "artwork_shares" ("created_at", "updated_at", "artwork_id", "viewer_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", "2019-02-25 21:46:23.244370"], ["updated_at", "2019-02-25 21:46:23.244370"], ["artwork_id", 8], ["viewer_id", 11]]
+  ↳ app/controllers/artwork_shares_controller.rb:4
+  [1m[35m (33.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/artwork_shares_controller.rb:4
+Completed 200 OK in 45ms (Views: 0.7ms | ActiveRecord: 35.9ms)
+
+
+Started DELETE "/artwork_shares/5" for 127.0.0.1 at 2019-02-25 16:46:49 -0500
+Processing by ArtworkSharesController#destroy as */*
+  Parameters: {"artwork_share"=>{"viewer_id"=>"11", "artwork_id"=>"8"}, "id"=>"5"}
+  [1m[36mArtworkShare Load (0.4ms)[0m  [1m[34mSELECT  "artwork_shares".* FROM "artwork_shares" WHERE "artwork_shares"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/artwork_shares_controller.rb:13
+  [1m[36mArtworkShare Destroy (0.6ms)[0m  [1m[31mDELETE FROM "artwork_shares" WHERE "artwork_shares"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/artwork_shares_controller.rb:13
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/artwork_shares_controller.rb:13
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/artwork_shares_controller.rb:13
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/artwork_shares_controller.rb:13
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 2.7ms)
+
+
+  [1m[36mArtworkShare Load (0.7ms)[0m  [1m[34mSELECT  "artwork_shares".* FROM "artwork_shares" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (28.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateCommentsTable (20190225215400)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (89.3ms)[0m  [1m[35mCREATE TABLE "comments" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "user_id" integer NOT NULL, "artwork_id" integer NOT NULL, "body" character varying NOT NULL)[0m
+  ↳ db/migrate/20190225215400_create_comments_table.rb:3
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+  ↳ db/migrate/20190225215400_create_comments_table.rb:9
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_artwork_id" ON "comments"  ("artwork_id")[0m
+  ↳ db/migrate/20190225215400_create_comments_table.rb:10
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190225215400"]]
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(4423719662052901560)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started POST "/comments" for 127.0.0.1 at 2019-02-25 17:23:28 -0500
+  [1m[35m (60.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/aa/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by CommentsController#create as */*
+  Parameters: {"comment"=>{"user_id"=>"11", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}}
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+LoadError (Unable to autoload constant Comment, expected /Users/aa/Desktop/W4D1/Routes/app/models/comment.rb to define it):
+  
+app/controllers/comments_controller.rb:13:in `create'
+Started POST "/comments" for 127.0.0.1 at 2019-02-25 17:23:50 -0500
+Processing by CommentsController#create as */*
+  Parameters: {"comment"=>{"user_id"=>"11", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[36mArtwork Load (0.6ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/comments_controller.rb:14
+Completed 422 Unprocessable Entity in 140ms (Views: 0.7ms | ActiveRecord: 25.3ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+Started POST "/comments" for 127.0.0.1 at 2019-02-25 17:24:19 -0500
+Processing by CommentsController#create as */*
+  Parameters: {"comment"=>{"user_id"=>"10", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[36mArtwork Load (0.5ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[36mComment Create (58.3ms)[0m  [1m[32mINSERT INTO "comments" ("created_at", "updated_at", "user_id", "artwork_id", "body") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2019-02-25 22:24:19.337787"], ["updated_at", "2019-02-25 22:24:19.337787"], ["user_id", 10], ["artwork_id", 8], ["body", "looks great!!!!!!!!"]]
+  ↳ app/controllers/comments_controller.rb:14
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/comments_controller.rb:14
+Completed 200 OK in 72ms (Views: 0.7ms | ActiveRecord: 60.1ms)
+
+
+Started POST "/users/10/comments" for 127.0.0.1 at 2019-02-25 17:24:34 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/users/10/comments"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/10/comments" for 127.0.0.1 at 2019-02-25 17:24:41 -0500
+Processing by CommentsController#index as */*
+  Parameters: {"comment"=>{"user_id"=>"10", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}, "user_id"=>"10"}
+  [1m[36mComment Load (0.6ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."user_id" = $1 LIMIT $2[0m  [["user_id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:5
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/artworks/8/comments" for 127.0.0.1 at 2019-02-25 17:24:52 -0500
+Processing by CommentsController#index as */*
+  Parameters: {"comment"=>{"user_id"=>"10", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}, "artwork_id"=>"8"}
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."artwork_id" = $1 LIMIT $2[0m  [["artwork_id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:7
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/comments/1" for 127.0.0.1 at 2019-02-25 17:25:10 -0500
+Processing by CommentsController#destroy as */*
+  Parameters: {"comment"=>{"user_id"=>"10", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}, "id"=>"1"}
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:22
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mComment Destroy (0.7ms)[0m  [1m[31mDELETE FROM "comments" WHERE "comments"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mArtwork Load (1.4ms)[0m  [1m[34mSELECT  "artworks".* FROM "artworks" WHERE "artworks"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mArtwork Destroy (0.5ms)[0m  [1m[31mDELETE FROM "artworks" WHERE "artworks"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 13]]
+  ↳ app/controllers/comments_controller.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/comments_controller.rb:23
+Completed 200 OK in 28ms (Views: 0.5ms | ActiveRecord: 5.6ms)
+
+
+Started DELETE "/comments/1" for 127.0.0.1 at 2019-02-25 17:25:12 -0500
+Processing by CommentsController#destroy as */*
+  Parameters: {"comment"=>{"user_id"=>"10", "artwork_id"=>"8", "body"=>"looks great!!!!!!!!"}, "id"=>"1"}
+  [1m[36mComment Load (1.0ms)[0m  [1m[34mSELECT  "comments".* FROM "comments" WHERE "comments"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/comments_controller.rb:22
+Completed 404 Not Found in 3ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Comment with 'id'=1):
+  
+app/controllers/comments_controller.rb:22:in `destroy'
